@@ -11,6 +11,10 @@
 		EF35B1E02BDDFC9500FFC28D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF35B1DF2BDDFC9500FFC28D /* ContentView.swift */; };
 		EF35B1E22BDDFC9600FFC28D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF35B1E12BDDFC9600FFC28D /* Assets.xcassets */; };
 		EF35B1E52BDDFC9600FFC28D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF35B1E42BDDFC9600FFC28D /* Preview Assets.xcassets */; };
+		EF35B1ED2BDDFCBF00FFC28D /* FoodieModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF35B1EB2BDDFCBE00FFC28D /* FoodieModel.xcdatamodeld */; };
+		EF35B1EF2BDDFD2800FFC28D /* FoodieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF35B1EE2BDDFD2800FFC28D /* FoodieViewModel.swift */; };
+		EF35B1F12BDE035100FFC28D /* FoodieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF35B1F02BDE035100FFC28D /* FoodieView.swift */; };
+		EF35B1F32BDE0BE400FFC28D /* RestaurantsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF35B1F22BDE0BE400FFC28D /* RestaurantsList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		EF35B1DF2BDDFC9500FFC28D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF35B1E12BDDFC9600FFC28D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF35B1E42BDDFC9600FFC28D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF35B1EC2BDDFCBE00FFC28D /* FoodieModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodieModel.xcdatamodel; sourceTree = "<group>"; };
+		EF35B1EE2BDDFD2800FFC28D /* FoodieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodieViewModel.swift; sourceTree = "<group>"; };
+		EF35B1F02BDE035100FFC28D /* FoodieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodieView.swift; sourceTree = "<group>"; };
+		EF35B1F22BDE0BE400FFC28D /* RestaurantsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 				EF35B1DF2BDDFC9500FFC28D /* ContentView.swift */,
 				EF35B1E12BDDFC9600FFC28D /* Assets.xcassets */,
 				EF35B1E32BDDFC9600FFC28D /* Preview Content */,
+				EF35B1EB2BDDFCBE00FFC28D /* FoodieModel.xcdatamodeld */,
+				EF35B1EE2BDDFD2800FFC28D /* FoodieViewModel.swift */,
+				EF35B1F02BDE035100FFC28D /* FoodieView.swift */,
+				EF35B1F22BDE0BE400FFC28D /* RestaurantsList.swift */,
 			);
 			path = Foodie;
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF35B1F32BDE0BE400FFC28D /* RestaurantsList.swift in Sources */,
 				EF35B1E02BDDFC9500FFC28D /* ContentView.swift in Sources */,
 				EF35B1DE2BDDFC9500FFC28D /* FoodieApp.swift in Sources */,
+				EF35B1EF2BDDFD2800FFC28D /* FoodieViewModel.swift in Sources */,
+				EF35B1ED2BDDFCBF00FFC28D /* FoodieModel.xcdatamodeld in Sources */,
+				EF35B1F12BDE035100FFC28D /* FoodieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +360,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF35B1EB2BDDFCBE00FFC28D /* FoodieModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF35B1EC2BDDFCBE00FFC28D /* FoodieModel.xcdatamodel */,
+			);
+			currentVersion = EF35B1EC2BDDFCBE00FFC28D /* FoodieModel.xcdatamodel */;
+			name = FoodieModel.xcdatamodeld;
+			path = /Users/anujkumar/Desktop/Foodie/Foodie/FoodieModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EF35B1D22BDDFC9500FFC28D /* Project object */;
 }
